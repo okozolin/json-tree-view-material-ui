@@ -1,3 +1,14 @@
+# JSON Tree view styled with Material-ui
+
+- Reusable UI component that retrieves JSON data from a given URL
+- Shows it in a tree view where nodes can be expanded and collapsed.
+- The component handles any valid JSON, without any expectations regarding its structure.
+- TThe page that contains the component controls the URL from which the data is obtained.
+- The URL is assumed to be publicly available without authentication.
+- Changing the URL should fetch the data and updateaccordingly.
+
+<hr>
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
