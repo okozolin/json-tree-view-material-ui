@@ -1,5 +1,7 @@
 # JSON Tree view styled with Material-ui
 
+You can try it here [json-tree-view-material-ui](https://json-tree-view-material-ui.herokuapp.com/)
+
 ![JSON tree preview](json_tree_view.gif)
 
 - Reusable UI component that retrieves JSON data from a given URL
