@@ -41,8 +41,15 @@ const Header = ({ handleClick, setValue }) => {
   const [enable, setEnable] = React.useState(false);
 
   const handleChange = (e) => {
-    setValue(e.target.value);
     e.target.value.length === 0 ? setEnable(false) : setEnable(true);
+    setValue(e.target.value);
+  };
+
+  const handleKeyPress = (e) => {
+    if (e.key === "Enter") {
+      handleClick();
+      e.preventDefault();
+    }
   };
 
   return (
@@ -62,6 +69,7 @@ const Header = ({ handleClick, setValue }) => {
             defaultValue=""
             onChange={handleChange}
             placeholder="https://www.example.com"
+            onKeyPress={handleKeyPress}
           />
           <IconButton
             classes={{ root: classes.iconButton }}
