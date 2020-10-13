@@ -61,7 +61,7 @@ const Header = ({ handleClick, setValue }) => {
             label="Enter JSON url"
             defaultValue=""
             onChange={handleChange}
-            placeholder="http://www.example.com"
+            placeholder="https://www.example.com"
           />
           <IconButton
             classes={{ root: classes.iconButton }}
