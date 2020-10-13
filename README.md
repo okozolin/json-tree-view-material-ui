@@ -1,5 +1,7 @@
 # JSON Tree view styled with Material-ui
 
+![JSON tree preview](json_tree_view.gif)
+
 - Reusable UI component that retrieves JSON data from a given URL
 - Shows it in a tree view where nodes can be expanded and collapsed.
 - The component handles any valid JSON, without any expectations regarding its structure.
